@@ -1,7 +1,7 @@
-﻿/*
+/*
 
 TCXX
-http://blog.sina.com.cn/1cindy2candy
+http://tcxx.info
 
 File: Player.as
 Created: 2012-12-7 21:07:31
