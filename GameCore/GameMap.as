@@ -1,6 +1,6 @@
-﻿/*
+/*
 
-An data structure to store map info.
+A data structure to store map info.
 
 */
 
