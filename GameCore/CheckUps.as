@@ -28,30 +28,6 @@
 		    //
 	    }
 	
-	/*
-		static function ifHitBlock(_plaRect:Rectangle, _walls:Vector.<Point>) {
-			var wallRect:Rectangle = new Rectangle();
-			var intersect:Rectangle;
-			wallRect.width = Main.block_x;
-			wallRect.height = Main.block_y;
-			for each(var wall:Point in _walls) {
-				trace("each in ifHitBlock working");
-
-				wallRect.x = Math.round(wall.x * Main.block_x);
-				wallRect.y = Math.round(wall.y * Main.block_y);
-				intersect = wallRect.intersection(_plaRect);
-				/*
-				trace("player:");
-				traceRect(_plaRect);
-				
-				if (intersect.width || intersect.height) {
-					trace("hited!");
-					return true;
-				}
-			}
-			return false;
-		}
-		*/
 		
 	    static function checkBlockPlayer(_pla:Player) {
 			_pla.status=0;
