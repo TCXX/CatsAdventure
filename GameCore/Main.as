@@ -21,7 +21,6 @@ package
 	import flash.utils.Timer;
 	import flash.net.URLRequest;
     import flash.events.MouseEvent;
-	//
 
 	public class Main extends MovieClip
 	{
@@ -32,13 +31,11 @@ package
 		static var gameTimer:Timer = new Timer(500);
 		static var aniTimer:Timer = new Timer(1500);
 		var lyricTimer:Timer = new Timer(33375);
-        //var lyricTimer:Timer = new Timer(1000);
 		
 		static var gameMap:Maps = new Maps();
 
 		static var player1:Player;
 		static var bubble1:Bubble;
-		//static var man1:Man;
 		
 		static var board1:Board = new Board();
 		static var hintBoard1:HintBoard = new HintBoard();
@@ -84,9 +81,6 @@ package
 
 		public function Main()
 		{
-			//&&start
-			
-
 
 			block_x = (stage_x - 30) / 26;
 			block_y = stage_y / 20;
