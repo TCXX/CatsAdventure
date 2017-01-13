@@ -1,4 +1,4 @@
-﻿package 
+package 
 {
 	import flash.display.MovieClip;
 	import flash.geom.Point;
@@ -23,10 +23,6 @@
 				_pla.status=0;
 			}
 		}
-		
-	    static function checkBlockAnimal(_ani:Animal) {
-		    //
-	    }
 	
 		
 	    static function checkBlockPlayer(_pla:Player) {
