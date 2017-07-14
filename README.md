@@ -1,6 +1,6 @@
 # CatsAdventure
 
-A Flash game
+Strategy game with multiple levels similar to Super Mario
 
 December 2012
 
